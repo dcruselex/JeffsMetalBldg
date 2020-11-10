@@ -28,6 +28,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+    text-shadow: 2px 2px black;
     background-image: url('../images/outsidebldg.jpg');
     background-position: center;
     -webkit-background-size: cover;

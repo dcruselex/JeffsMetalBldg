@@ -19,7 +19,17 @@
 
  
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    
+    <script>
+        function showhide() {
+  var x = document.getElementById("citylist");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+        </script>
 </head>
 
 <body>
@@ -55,7 +65,7 @@
 						</ul>
 					</li>
                     <li>
-                        <a href="contactus.html">Contact</a>
+                        <a href="contactus2.html">Contact</a>
                     </li>
                 </ul>
                 
@@ -82,6 +92,30 @@
                 	<span class="glyphicon glyphicon-paperclip" style="font-size: 60px"></span>
                     <h2 class="section-heading">Suppliers can choose to provide a quote for one or multiple areas.</h2>
                     <p class="text-light">Please provide full detailed quotes that should include drawings, specification sheets, pricing, warrenties, lead times as applicable to the area you are quoting. </p>
+                    <button style="color:black" onclick="showhide()">Show/Hide Plans</button>
+                    
+                    <div id="citylist" style="display:none"> <ul>
+                        
+                        <li style="color:black"><a href="./Drawings/3DBUILD.pdf"><p style="color:black">3D Building</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ANDWG1.pdf"><p style="color:black">AN DWG 1</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ANDWG2.pdf"><p style="color:black">AN DWG 2</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ANDWG3.pdf"><p style="color:black">AN DWG 3</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ANDWG4.pdf"><p style="color:black">AN DWG 4</p></a></li>
+                        <li style="color:black"><a href="./Drawings/RFDWG1.pdf"><p style="color:black">RF DWG 1</p></a></li>
+                        <li style="color:black"><a href="./Drawings/RFDWG2.pdf"><p style="color:black">RF DWG 2</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ROOFDWG1.pdf"><p style="color:black">ROOF DWG1</p></a></li>
+                        <li style="color:black"><a href="./Drawings/ROOfDWG2.pdf"><p style="color:black">ROOF DWG2</p></a></li>
+                        <li style="color:black"><a href="./Drawings/WALL1.pdf"><p style="color:black">WALL DWG1</p></a></li>
+                        <li style="color:black"><a href="./Drawings/WALL2.pdf"><p style="color:black">WALL DWG2</p></a></li>
+                        <li style="color:black"><a href="./Drawings/WALL4.pdf"><p style="color:black">WALL DWG4</p></a></li>
+                        <li style="color:black"><a href="./Drawings/WALL5.pdf"><p style="color:black">WALL DWG5</p></a></li>
+                        <li style="color:black"><a href="./Drawings/WALL6.pdf"><p style="color:black">WALL DWG6</p></a></li>
+                 
+
+
+
+                        
+                    </ul>   </div>
                 </div>
             </div>
         </div>

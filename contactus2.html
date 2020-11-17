@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <title> Jeff's Metal Building Erection Project</title>
+
+ 
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 
+    <link href="css/custom.css" rel="stylesheet">
+
+ 
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script>
+        function validate() {
+          var fn = document.getElementById("fname").value;
+          
+          if (fn != "David" && fn != "Hayes" && fn != "Jeff" && fn != "Leigh" )
+          alert("Name not valid: " + fn);
+          else // name was accepted
+          {
+             console.log("Hello");
+              document.getElementById("welcome").textContent="Welcome " +fn;
+               alert("Welcome : " + fn);
+          }
+        }
+
+        </script>
+</head>
+
+<body>
+
+    <nav id="siteNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                	<span class="glyphicon glyphicon-fire"></span> 
+                	Jeff's Metal Bldg. Erection Project
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">RFQ Section <span class="caret"></span></a>
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="index.html">Metal Building</a></li>
+							<li><a href="index.html">Concrete</a></li>
+							<li><a href="index.html">Electrical and Plumbing</a></li>
+						</ul>
+					</li>
+                    <li>
+                        <a href="contactus.html">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+	
+     
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Erecting a Metal Building at Lake Cumberland.</h1>
+                <p>We are solicting quotes from suppliers to provide quotes for one or more areas of the build.</p>
+                
+            </div>
+        </div>
+    </header>
+    <div style="text-align: center;">
+
+        <form action="#">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            
+          </form>   
+        <button onclick="validate()">OK</button>
+    </div> 
+     
+	
+    <section class="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                	<p id="welcome">Please Log In</p>
+                    <h2 class="section-heading"></h2>
+                    <p class="text-light"> </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	
+    
+
+	
+     
+
+    
+
+
+	
+     
+    
+	
+    <footer class="page-footer">
+        </div>
+        	       
+        <div class="small-print">
+        	<div class="container">
+        		<p>Copyright &copy; Jeff's Metal Bldg. Erection 2020</p>
+        	</div>
+        </div>
+        
+    </footer>
+
+    
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    
+    <script src="js/bootstrap.min.js"></script>
+
+    
+    <script src="js/jquery.easing.min.js"></script>
+    
+    
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

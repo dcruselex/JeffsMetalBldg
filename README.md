@@ -19,12 +19,14 @@ JavaScript Features amoung others:
 1) Created a contact form, validated 1 input (first name) and then returned back to user, not a valid First Name if it isn't David, Leigh, Jeff or Hayes.   Note:  Case sensitive.    When submit, it if valid it will post Welcome "First Name" below on the website.   If invalid, it provides box saying invalid first name.   Note:  Script is in the contact.js file and is called.
 2)   Show/Hide one or more content areas or elements on the site through clicking on a button/user interaction.  There is a button to Show/Hide plans and it lists 14 different drawings.   The drawings can be clicked on and will open in the browser to view. This feature is in the showhide.js file and is called. 
 
-3) Media queries that scale up to handle larger devices
-Multiple that support small, 768px and 1080px
+Media Queries
+Media queries that scale up to handle larger devices
+1) Multiple that support small, 768px and 1080px
 
-4) Project has been uploaded to my GitHub repository and there has been 10+ commits.
-5) Project includes this README file that describes project and lists features implemented.
-6) Project name -  simply named it Jeff's Metal Erection Bldg Project  
+Other
+1) Project has been uploaded to my GitHub repository and there has been 10+ commits.
+2) Project includes this README file that describes project and lists features implemented.
+3) Project name -  simply named it Jeff's Metal Erection Bldg Project  
    variation because that is what it is about.
 
 Thank you for reviewing this project and providing any feedback.    David

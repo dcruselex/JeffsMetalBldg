@@ -57,6 +57,12 @@ header .header-content .header-content-inner p {
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
+.intro {
+	color: #fff;
+    background-color: yellowgreen;
+    padding: 70px 0;
+    text-align: center;
+}
 
 @media(min-width:768px) {
     header {
@@ -95,12 +101,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 20px;
 }
 
-.intro {
-	color: #fff;
-    background-color: yellowgreen;
-    padding: 70px 0;
-    text-align: center;
-}
+
 
 .content {
     padding: 100px 0;
@@ -431,7 +432,7 @@ img::-moz-selection {
     background-color: yellowgreen;
 }
 
-@media(max-width:1080px) {
+@media(min-width:1080px) {
     header {
         min-height: 100%;
     }
@@ -460,7 +461,17 @@ img::-moz-selection {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+
+
     }
+    .intro {
+        color: #fff;
+        background-color: rgb(50, 112, 205);
+        padding: 70px 0;
+        text-align: center;
+    }
+
+
 }
 
 .section-heading {
@@ -468,12 +479,7 @@ img::-moz-selection {
     margin-bottom: 20px;
 }
 
-.intro {
-	color: #fff;
-    background-color: rgb(50, 112, 205);
-    padding: 70px 0;
-    text-align: center;
-}
+
 
 .content {
     padding: 100px 0;
